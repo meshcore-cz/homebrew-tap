@@ -5,28 +5,28 @@
 class Mc < Formula
   desc "MeshCore terminal client"
   homepage "https://github.com/meshcore-cz/meshcore-go"
-  version "0.5.0"
+  version "0.5.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/meshcore-cz/meshcore-go/releases/download/v0.5.0/mc_v0.5.0_darwin_arm64.tar.gz"
-      sha256 "37b022f253a1fd3289949aa78f6dcb74f75008bdb7d1d7d2350e66c13f20afc5"
+      url "https://github.com/meshcore-cz/meshcore-go/releases/download/v0.5.1/mc_v0.5.1_darwin_arm64.tar.gz"
+      sha256 "f00e1e1ca4c52d452a75a19d23c8bf6a7af9966236635acc8bc189e8e9bda817"
     end
     on_intel do
-      url "https://github.com/meshcore-cz/meshcore-go/releases/download/v0.5.0/mc_v0.5.0_darwin_amd64.tar.gz"
-      sha256 "7275733fa23693ce00505f7bb2e4cf2401e728ebb13b516b874b07bab982515e"
+      url "https://github.com/meshcore-cz/meshcore-go/releases/download/v0.5.1/mc_v0.5.1_darwin_amd64.tar.gz"
+      sha256 "56441597f3a272376b3d55d57716fc39e19a28e6b82c31266751571b312e533b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/meshcore-cz/meshcore-go/releases/download/v0.5.0/mc_v0.5.0_linux_arm64.tar.gz"
-      sha256 "6ee55c59cd9bb80773311f4c79ba17511b1b9b452b1d66c5764504c2b78294a0"
+      url "https://github.com/meshcore-cz/meshcore-go/releases/download/v0.5.1/mc_v0.5.1_linux_arm64.tar.gz"
+      sha256 "4bd91250c1901d4706a975ea2e8a1e4b43e60aca9c603f1e42c986f52c817f95"
     end
     on_intel do
-      url "https://github.com/meshcore-cz/meshcore-go/releases/download/v0.5.0/mc_v0.5.0_linux_amd64.tar.gz"
-      sha256 "5026c70b415a07fc739a1b4e985ade090110a55296d1df6fc9c01093011181d6"
+      url "https://github.com/meshcore-cz/meshcore-go/releases/download/v0.5.1/mc_v0.5.1_linux_amd64.tar.gz"
+      sha256 "25f8432429b49727ac07308441efcd6346463665b656cba9d2f970e440e276bf"
     end
   end
 
