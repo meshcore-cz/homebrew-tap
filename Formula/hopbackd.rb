@@ -5,28 +5,28 @@
 class Hopbackd < Formula
   desc "Hopback MeshCore diagnostic web backend"
   homepage "https://github.com/meshcore-cz/hopback"
-  version "0.9.3"
+  version "0.9.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/meshcore-cz/hopback/releases/download/v0.9.3/hopbackd_v0.9.3_darwin_arm64.tar.gz"
-      sha256 "d3c1e351898f6a1bddb4732fb354ca44b6b3bd68eef19923432001cb30d0543d"
+      url "https://github.com/meshcore-cz/hopback/releases/download/v0.9.4/hopbackd_v0.9.4_darwin_arm64.tar.gz"
+      sha256 "6316d5eeac155facd349d755bcdc8c8183f6a4a7fab618539355d688db3e4eeb"
     end
     on_intel do
-      url "https://github.com/meshcore-cz/hopback/releases/download/v0.9.3/hopbackd_v0.9.3_darwin_amd64.tar.gz"
-      sha256 "b7345c99561fb728460ff4e1e90879b7ba33ed7321c8ca31a1cf91681174de68"
+      url "https://github.com/meshcore-cz/hopback/releases/download/v0.9.4/hopbackd_v0.9.4_darwin_amd64.tar.gz"
+      sha256 "1b4a28011d2ec6641d698351e9ca674a9073410bba097ca1c7cfe3e0a8ce1748"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/meshcore-cz/hopback/releases/download/v0.9.3/hopbackd_v0.9.3_linux_arm64.tar.gz"
-      sha256 "ca1eafb6f7766c613d8256bf06f5988298f9cf0fc7c1b90ac09f258a80ff6211"
+      url "https://github.com/meshcore-cz/hopback/releases/download/v0.9.4/hopbackd_v0.9.4_linux_arm64.tar.gz"
+      sha256 "06b95ec7785559853cddca99fb28cfd7a6333dbb5bcdb3e54d15f5d41adb5c3a"
     end
     on_intel do
-      url "https://github.com/meshcore-cz/hopback/releases/download/v0.9.3/hopbackd_v0.9.3_linux_amd64.tar.gz"
-      sha256 "f104c9f4310f7052d0738361a03eef4a116f41de070230034cb3b3e64604a607"
+      url "https://github.com/meshcore-cz/hopback/releases/download/v0.9.4/hopbackd_v0.9.4_linux_amd64.tar.gz"
+      sha256 "1a98e6c04460ba5a7cc62c8060d1b01868b05add20fb391efc65fb2c4c81e6c3"
     end
   end
 
