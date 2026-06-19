@@ -5,28 +5,28 @@
 class HopbackAgent < Formula
   desc "Hopback MeshCore radio bridge agent"
   homepage "https://github.com/meshcore-cz/hopback"
-  version "0.9.2"
+  version "0.9.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/meshcore-cz/hopback/releases/download/v0.9.2/hopback-agent_v0.9.2_darwin_arm64.tar.gz"
-      sha256 "08d65170bc16948f7f3d2082c4ddc6c9ded6ba6960b55757b54892c2bc9dcbb8"
+      url "https://github.com/meshcore-cz/hopback/releases/download/v0.9.3/hopback-agent_v0.9.3_darwin_arm64.tar.gz"
+      sha256 "af8cc5c5c816dbf4f41171f5550b281651062f5d7961bf42e85dc4488aa9974b"
     end
     on_intel do
-      url "https://github.com/meshcore-cz/hopback/releases/download/v0.9.2/hopback-agent_v0.9.2_darwin_amd64.tar.gz"
-      sha256 "1da24c41a346e6990d4bbd5548dad5e978a540c27663e222bd33ed438c728a9d"
+      url "https://github.com/meshcore-cz/hopback/releases/download/v0.9.3/hopback-agent_v0.9.3_darwin_amd64.tar.gz"
+      sha256 "63fabf0897ea60ec83400253efd96273fb3a245f7346069dc535ed43c9ea7073"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/meshcore-cz/hopback/releases/download/v0.9.2/hopback-agent_v0.9.2_linux_arm64.tar.gz"
-      sha256 "f44e270a1d856a49dd562cb1ab5379794411017f893466c299423553334857b6"
+      url "https://github.com/meshcore-cz/hopback/releases/download/v0.9.3/hopback-agent_v0.9.3_linux_arm64.tar.gz"
+      sha256 "fb15d0df667f8cb278c3fc741f1a7e3ae26148e26507ff17f099ef4a5cc43726"
     end
     on_intel do
-      url "https://github.com/meshcore-cz/hopback/releases/download/v0.9.2/hopback-agent_v0.9.2_linux_amd64.tar.gz"
-      sha256 "71cc63ab13df7b5160cb1b613f28fcdc2ed8008d904f9bccc717d6d0e43d29e3"
+      url "https://github.com/meshcore-cz/hopback/releases/download/v0.9.3/hopback-agent_v0.9.3_linux_amd64.tar.gz"
+      sha256 "bf58f71f045e8f1fd26a8d697a6b93531f29626840d49fd49e885ef4afc1a552"
     end
   end
 
